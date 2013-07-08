@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Seletor</title>
+<script type="text/javascript" src="/site_media/js/d3.v3.js"></script>
+<style>
+</style>
+<script type="text/javascript">
+	function line(){		
+		var x = d3.scale.linear()
+		.domain([0, 400]) //设置值域  对应的就是自己的数据范围
+		.range([0,200]);
+        //设置值范围 对应的html上统计图所占的大小或高矮
+		console.log(x(50)); //打印50对应的值  //对应的是数据在统计图上的大小
+	}
+	window.onload = line;
+</script>
+</head>
+<body>	
+
+</body>
+</html>

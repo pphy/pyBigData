@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Seletor</title>
+<script type="text/javascript" src="/site_media/js/d3.v3.js"></script>
+<script type="text/javascript">
+	//d3选择器的默认的根节点是body元素 
+	//d3的选择器语法 采用css选择器同样的语法
+	function  selectFirst(){
+		/*
+		选择body下的所有子元素p元素，给它里面的字颜色设置为白色
+		注意看到div下的p中文本也变白色了，
+		所以selectAll 默认是选择某个节点下的所有子元素（包括间接子元素）
+		*/
+		d3.selectAll("p").style("color", "green");
+		/*
+			select 为选择某个节点，如果符合条件的节点有多个，则默认选择第一个。
+		*/
+		d3.select("body").style("background-color", "grey");//选择body元素设为色背灰景
+		/*
+			选择div，给它的内容设置为ABC,可以看到自由第一个DIV的内容变ABC了，其他无变化
+			有关select()下有哪些函数，如html()等可以自行参考官方API
+			https://github.com/mbostock/d3/wiki/Selections
+		*/
+		d3.selectAll("div").html("ABC");
+		
+		//类似CSS的选择规则
+		d3.select("div#selectorID").html("selectorID");
+		d3.select("div.selectorClass").html("selectorClass"); //或者d3.select(".selectorClass").html("selectorClass");
+		
+		//select,selectAll组合使用，这个是经常使用的。
+		//选择#mix元素下所有的p元素给文本字体大小设置为36
+		d3.select("#mix").selectAll("span").style("font-size","24px");
+	}
+	
+	window.onload = selectFirst;
+</script>
+</head>
+<body>	
+	<pre>Code:
+	d3.selectAll("p").style("color", "white");
+Demo:
+	</pre>
+	<p>A</p>
+	<p>B</p>
+	<p>C</p>
+	<p>D</p>
+	<p>E</p>
+	<p>F</p>
+	================================<br />
+	<pre>Code:
+	d3.select("div").html("ABC");
+Demo:</pre>
+	<div>select</div>
+	<div>select</div>
+	<div>select</div>
+	<div><p>G</p></div>
+	================================<br />
+	<pre>Code:
+		d3.select("div#selectorID").html("selectorID");
+		d3.select("div.selectorClass").html("selectorClass");
+Demo:</pre><br/>
+	<div id="selectorID"></div>
+	<div class="selectorClass"></div>
+	================================<br />
+	<pre>Code:
+	d3.select("#mix").selectAll("span").style("font-size","24px");
+Demo:</pre>
+	<div id="mix">		
+		<span>A</span>
+		<span>B</span>
+		<span>C</span>
+		<span>D</span>
+		<span>E</span>
+		<span>F</span>	
+	</div>
+</body>
+</html>

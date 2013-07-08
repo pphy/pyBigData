@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Seletor</title>
+<script type="text/javascript" src="/site_media/js/d3.v3.js"></script>
+<style>
+.chart rect {
+  stroke: white;
+  fill: steelblue;
+}
+</style>
+<script type="text/javascript">
+	function charbar(){
+		var data = [4, 8, 15, 16, 23, 42]; 
+		var chart = d3.select("body").append("svg") //在body下添加一个svg  "chart"并设置其样式为chart,然后分别设置了宽和高
+			.attr("class", "chart")
+			.attr("width", 420)
+			.attr("height", 20 * data.length);
+
+		var x = d3.scale.linear()
+			.domain([0, d3.max(data)])
+			.range([0, 420]);
+			
+		chart.selectAll("rect")  //选择svg下的所有长方形
+			.data(data)  //绑定数据
+			.enter().append("rect")//添加长方形
+			.attr("y", function(d, i) { return i * 20; }) //计算矩形的左上角顶点y的坐标
+			.attr("width", x)  //矩形的长度
+			.attr("height", 20); //矩形的宽度
+	}
+	window.onload = charbar;
+</script>
+</head>
+<body>	
+
+</body>
+</html>

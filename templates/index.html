@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Data</title>
+<link rel="stylesheet" type="text/css" href="/site_media/css/bar.css"/>
+<script type="text/javascript" src="/site_media/js/d3.v3.js"></script>
+<script type="text/javascript" src="/site_media/js/bar.js"></script>
+</head>
+<body>
+<!--
+hor:
+<div id="svg"></div>
+<br />================================<br />
+vir:
+-->
+
+<script type="text/javascript">
+    window.onload = function(){
+        svgVirBarChart({{ pythondata }});
+    };
+</script>
+<div id="vir">
+</div>
+</body>
+</html>

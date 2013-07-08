@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Hello World</title>
+<script type="text/javascript" src="/site_media/js/d3.v3.js"></script>
+</head>
+<body>
+<h1></h1>
+</body>
+<script type="text/javascript">
+function helloworld(){
+     d3.select("h1").html("Hello D3.js !");
+     /*
+     看到这个是不是觉得和Jquery很相似？
+     d3的选择器使用Jquery差不多，当然没有Jquery那么强大了，
+     这就是为什么我在开篇会提到jquery，如果对Jquery有一定的了解那么
+     关于d3的选择器你也就会用了。
+    */
+};
+helloworld();
+/*啰嗦一下，有点Jquery经验的请无视。
+helloworld这个方法之所以在body标签后调用而不是在head标签中 是因为浏览器解析html文档
+是按顺序解析，如果写在head标签中，那么当浏览器解析到d3.select("h1")时，
+d3会发现在解析过的html中找不到h1 DOM节点 也就无法正确选择到了。
+至于怎么写在head标签中又可以在整个Html都加载后再执行请自行Google.
+*/
+</script>
+</html>

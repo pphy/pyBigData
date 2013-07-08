@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>box office</title>
+    <link href="http://twitter.github.io/bootstrap/assets/css/bootstrap.css" rel="stylesheet">
+    <link href="http://twitter.github.io/bootstrap/assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+</head>
+<body>
+{#    <ul>#}
+{#    {% for item in item_list %}#}
+{#        <li>{{ item }}</li>#}
+{#    {% endfor %}#}
+{#    </ul>#}
+{##}
+{#    <ul>#}
+{#    {% for item in clea_list %}#}
+{#        <li>{{ item }}</li>#}
+{#    {% endfor %}#}
+{#    </ul>#}
+{##}
+{#    <ul>#}
+{#    {% for item in kk_list %}#}
+{#        <li>{{ item }}</li>#}
+{#    {% endfor %}#}
+{#    </ul>#}
+
+    <a class="btn btn-large btn-primary" href="/boxofficegraph">生成图表</a>
+    <a class="btn btn-large btn-primary" href="/boxofficefilter">过滤数据</a>
+
+    <table>
+      <thead>
+        <tr>
+        {% for head in head_list %}
+{#        <tr><td>  A</td><td>  B</td><td>  C</td><td>  D</td></tr>#}
+            <td>{{ head }}</td>
+        {% endfor %}
+        </tr>
+      </thead>
+      <tbody>
+{#        <tr><td>  00</td><td>  01</td><td>  02</td><td>  03</td></tr>#}
+{#        <tr><td>  04</td><td>  05</td><td>  06</td><td>  07</td></tr>#}
+{#        <tr><td>  08</td><td>  09</td><td> 10</td><td> 11</td></tr>#}
+{#        <tr><td> 12</td><td> 13</td><td> 14</td><td> 15</td></tr>#}
+        {% for item in item_list %}
+            <tr>
+{#               {% for key, value in item.items %}#}
+{#                   <td>{{ key }}</td>#}
+{#                   <td>{{ value }}</td>#}
+{#               {% endfor %}#}
+{#                {% for head in head_list %}#}
+{#                    <td>{{ item. }}</td>#}
+{#                {% endfor %}#}
+{#            <td>{{ item.id }}</td>#}
+                {% for iter in item %}
+                    <td>{{ iter }}</td>
+                {% endfor %}
+            </tr>
+        {% endfor %}
+
+        {% for dict in simple_list %}
+            <tr>
+                {% for value in dict.values %}
+                    <td>{{ value }}</td>
+                {% endfor %}
+            </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+
+</body>
+</html>

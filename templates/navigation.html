@@ -1,0 +1,35 @@
+{#<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">#}
+{#<html xmlns="http://www.w3.org/1999/xhtml">#}
+{#<head>#}
+{#<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />#}
+{#<title>动态导航栏演示</title>#}
+{#<link href="/site_media/style.css" rel="stylesheet" type="text/css" />#}
+{#</head>#}
+{#<body>#}
+{#        {% load NavTag %}#}
+{#        <ul id="nav">#}
+{#                {% navtagitem / "首 页" %}#}
+{#                {% navtagitem /boxoffice/ "查看" %}#}
+{#                {% navtagitem /spider/ "爬虫" %}#}
+{#                {% navtagitem /diagram/ "走势拟合曲线" %}#}
+{#        </ul>#}
+{#</body>#}
+{#</html>#}
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>navi</title>
+<link href="/site_media/css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+        <ul id="nav">
+                <li><a href="/" id="current">首 页</a></li>
+                <li><a href="/boxoffice/" >查看</a></li>
+                <li><a href="/spider/" >票房</a></li>
+                <li><a href="/diagram/" >走势拟合图表</a></li>
+{#                <li><a href="/about/" >联 系</a></li>#}
+        </ul>
+</body>
+</html>

@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Seletor</title>
+<script type="text/javascript" src="/site_media/js/d3.v3.js"></script>
+<style>
+.chart div {
+  font: 10px sans-serif;
+  background-color: steelblue;
+  text-align: right;
+  padding: 3px;
+  margin: 1px;
+  color: white;
+}
+</style>
+<script type="text/javascript">
+	function charbar(){
+		var data = [4, 8, 15, 16, 23, 42];
+		var chart = d3.select("body").append("div")
+						.attr("class", "chart"); //在body下添加一个div  "chart"并设置其样式为chart
+
+		var x = d3.scale.linear()  //定义线性尺
+			.domain([0, d3.max(data)]) //域范围
+			.range(["0px", "420px"]); //值范围（range里面应该发生了数据类型 的转换）
+			
+		chart.selectAll("div")
+			.data(data)
+			.enter().append("div")
+			.style("width", x) //对应demo1，变化部分主要就是在这里 
+			//.style("width", function(d){ return (420/d3.max(data))*d + "px" }) //对应demo1，变化部分主要就是在这里 
+				//前面提到过linear是一个函数，所以这里x应该相当于 function(d){ return (420/d3.max(data))*d + "px" })
+			.text(String);
+	}
+	window.onload = charbar;
+</script>
+</head>
+<body>	
+
+</body>
+</html>
