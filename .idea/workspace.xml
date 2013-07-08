@@ -4,7 +4,7 @@
     <list default="true" id="11943587-545a-424d-9df4-3b2bcf72ced9" name="Default" comment="" />
     <ignored path="filepredict.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/views.py" changelist="11943587-545a-424d-9df4-3b2bcf72ced9" time="1373271573443" ignored="false" />
+    <file path="/views.py" changelist="11943587-545a-424d-9df4-3b2bcf72ced9" time="1373277583159" ignored="false" />
     <file path="/urls.py" changelist="11943587-545a-424d-9df4-3b2bcf72ced9" time="1373269121281" ignored="false" />
     <file path="$PROJECT_DIR$/../py_excel/parse.py" changelist="11943587-545a-424d-9df4-3b2bcf72ced9" time="1372926381384" ignored="false" />
     <file path="/parse.py" changelist="11943587-545a-424d-9df4-3b2bcf72ced9" time="1372926373793" ignored="false" />
@@ -86,7 +86,7 @@
           <file leaf-file-name="D3Show.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/templates/D3Show.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="9" column="20" selection-start="330" selection-end="330" vertical-scroll-proportion="-6.428571">
+                <state line="9" column="20" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -104,7 +104,7 @@
           <file leaf-file-name="navigation.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/templates/navigation.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="28" column="39" selection-start="1161" selection-end="1161" vertical-scroll-proportion="-14.464286">
+                <state line="28" column="39" selection-start="1161" selection-end="1161" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -122,7 +122,7 @@
           <file leaf-file-name="cleantha.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/templates/cleantha.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="283" column="20" selection-start="7646" selection-end="7646" vertical-scroll-proportion="-1.509434">
+                <state line="283" column="20" selection-start="7646" selection-end="7646" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -131,7 +131,7 @@
           <file leaf-file-name="parsexcel.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/templates/parsexcel.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="2" column="6" selection-start="29" selection-end="29" vertical-scroll-proportion="-1.4285715">
+                <state line="2" column="6" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -141,9 +141,7 @@
             <entry file="file://$PROJECT_DIR$/filepredict/urls.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state line="54" column="32" selection-start="2281" selection-end="2291" vertical-scroll-proportion="0.0">
-                  <folding>
-                    <element signature="e#0#51#0" expanded="true" />
-                  </folding>
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -152,17 +150,15 @@
             <entry file="file://$PROJECT_DIR$/predictfilm/Diagram.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state line="100" column="32" selection-start="3974" selection-end="3974" vertical-scroll-proportion="0.0">
-                  <folding>
-                    <element signature="e#85#97#0" expanded="true" />
-                  </folding>
+                  <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="diagram.html" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="diagram.html" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/templates/diagram.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="20" column="32" selection-start="768" selection-end="768" vertical-scroll-proportion="0.78431374">
+                <state line="15" column="9" selection-start="586" selection-end="586" vertical-scroll-proportion="0.7025761">
                   <folding />
                 </state>
               </provider>
@@ -172,13 +168,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/predictfilm/views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="605" column="8" selection-start="19861" selection-end="19861" vertical-scroll-proportion="0.33723196">
-                  <folding>
-                    <element signature="e#81#116#0" expanded="true" />
-                  </folding>
+                <state line="620" column="0" selection-start="20315" selection-end="20315" vertical-scroll-proportion="0.26373628">
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -231,7 +225,7 @@
           <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/templates/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="22" column="14" selection-start="713" selection-end="713" vertical-scroll-proportion="-15.142858">
+                <state line="22" column="14" selection-start="713" selection-end="713" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -296,9 +290,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-2" />
-    <option name="width" value="1444" />
-    <option name="height" value="878" />
+    <option name="x" value="64" />
+    <option name="y" value="-4" />
+    <option name="width" value="1217" />
+    <option name="height" value="805" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -316,7 +311,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
-    <option name="STATE" value="2" />
+    <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
@@ -539,12 +534,12 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Scope Based" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../spider" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -600,29 +595,6 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="filepredict" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
     <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -644,6 +616,29 @@
       <option name="runNoReload" value="false" />
       <option name="useCustomRunCommand" value="false" />
       <option name="customRunCommand" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="filepredict" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -756,23 +751,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="0" width="1444" height="878" extended-state="6" />
-    <editor active="false" />
+    <frame x="64" y="-4" width="1217" height="805" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287858" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287858" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.8144611" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964131" sideWeight="0.7400821" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2697274" sideWeight="0.5279673" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47203276" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18417463" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18417047" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287858" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -841,18 +836,9 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/predictfilm/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="27" selection-start="732" selection-end="732" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/predictfilm/weiboLogin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="120" column="32" selection-start="3974" selection-end="3974" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="120" column="32" selection-start="3974" selection-end="3974" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/media/images/week.png">
@@ -867,14 +853,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="14" selection-start="713" selection-end="713" vertical-scroll-proportion="-15.142858">
+        <state line="22" column="14" selection-start="713" selection-end="713" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/D3Show.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="20" selection-start="330" selection-end="330" vertical-scroll-proportion="-6.428571">
+        <state line="9" column="20" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -895,14 +881,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/cleantha.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="283" column="20" selection-start="7646" selection-end="7646" vertical-scroll-proportion="-1.509434">
+        <state line="283" column="20" selection-start="7646" selection-end="7646" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/navigation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="39" selection-start="1161" selection-end="1161" vertical-scroll-proportion="-14.464286">
+        <state line="28" column="39" selection-start="1161" selection-end="1161" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -916,7 +902,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/parsexcel.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="6" selection-start="29" selection-end="29" vertical-scroll-proportion="-1.4285715">
+        <state line="2" column="6" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -924,33 +910,34 @@
     <entry file="file://$PROJECT_DIR$/predictfilm/Diagram.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="100" column="32" selection-start="3974" selection-end="3974" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#85#97#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/filepredict/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="54" column="32" selection-start="2281" selection-end="2291" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/predictfilm/views.py">
+    <entry file="file://$PROJECT_DIR$/media/js/bar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="605" column="8" selection-start="19861" selection-end="19861" vertical-scroll-proportion="0.33723196">
-          <folding>
-            <element signature="e#81#116#0" expanded="true" />
-          </folding>
+        <state line="155" column="6" selection-start="4358" selection-end="4375" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/diagram.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="32" selection-start="768" selection-end="768" vertical-scroll-proportion="0.78431374">
+        <state line="15" column="9" selection-start="586" selection-end="586" vertical-scroll-proportion="0.7025761">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predictfilm/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="620" column="0" selection-start="20315" selection-end="20315" vertical-scroll-proportion="0.26373628">
           <folding />
         </state>
       </provider>

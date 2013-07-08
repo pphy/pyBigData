@@ -609,8 +609,9 @@ def sinaSpider(request):
     #
         response = urllib2.urlopen(request)
         the_page = response.read()
+        return HttpResponse(the_page)
     except:
-        pass
+        return HttpResponse("there is no proxy try to get some")
     #
     # cleaSoup = BeautifulSoup(the_page)
     #
@@ -638,7 +639,6 @@ def sinaSpider(request):
     #     if match:
     #         print str(item) + '   cleantha'
 
-    return HttpResponse(the_page)
 
     # url = 'http://weibo.sina.com'
 
