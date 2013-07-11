@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link href="http://twitter.github.io/bootstrap/assets/css/bootstrap.css" rel="stylesheet">
+    <link href="http://twitter.github.io/bootstrap/assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <link href="/site_media/css/style.css" rel="stylesheet" type="text/css" />
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://twitter.github.io/bootstrap/assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://twitter.github.io/bootstrap/assets/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://twitter.github.io/bootstrap/assets/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="http://twitter.github.io/bootstrap/assets/ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="http://twitter.github.io/bootstrap/assets/ico/favicon.png">
+    <style id="holderjs-style" type="text/css">.holderjs-fluid {font-size:16px;font-weight:bold;text-align:center;font-family:sans-serif;margin:0}</style></head>
+
+</head>
+<body>
+    <script>
+
+        //获取下拉列表选中项的文本
+        function getSelectedText(name){
+        var obj = document.getElementById(name);
+            for(var i=0; i<obj.length; i++){
+               if(obj[i].selected == true){
+                return obj[i].innerText;      //关键是通过option对象的innerText属性获取到选项文本
+               }
+            }
+        }
+
+        //获取下拉列表选中项的值
+        function getSelectedValue(name){
+            var obj = document.getElementById(name);
+            return obj.value;      //如此简单，直接用其对象的value属性便可获取到
+        }
+
+    </script>
+    <div align="center">
+        <ul id="nav">
+            <li><a href="/" id="current">首 页</a></li>
+            <li><a href="/boxoffice/" >查看</a></li>
+            <li><a href="/spider/" >票房</a></li>
+            <li><a href="/diagram/" >走势拟合图表</a></li>
+        </ul>
+
+        <select id="clea">
+            {% for item in datelist %}
+                <option value="{{ item }}">{{ item }}</option>
+            {% endfor %}
+          <!--<option value ="volvo">Volvo</option>
+          <option value ="saab">Saab</option>
+          <option value="opel">Opel</option>
+          <option value="audi">Audi</option>-->
+        </select>
+
+        <!--<input type="button" value="所选文本" onclick="alert(getSelectedText('clea'));"/>
+        <input type="button" value="所选值" onclick="alert(getSelectedValue('clea'));"/>-->
+        <a class="btn btn-large btn-primary" href="/diagram" onclick="alert(getSelectedText('clea'))">显示图表</a>
+
+
+    </div>
+    <script src="/cleantha/jquery.js"></script>
+    <script src="/cleantha/bootstrap-transition.js"></script>
+    <script src="/cleantha/bootstrap-alert.js"></script>
+    <script src="/cleantha/bootstrap-modal.js"></script>
+    <script src="/cleantha/bootstrap-dropdown.js"></script>
+    <script src="/cleantha/bootstrap-scrollspy.js"></script>
+    <script src="/cleantha/bootstrap-tab.js"></script>
+    <script src="/cleantha/bootstrap-tooltip.js"></script>
+    <script src="/cleantha/bootstrap-popover.js"></script>
+    <script src="/cleantha/bootstrap-button.js"></script>
+    <script src="/cleantha/bootstrap-collapse.js"></script>
+    <script src="/cleantha/bootstrap-carousel.js"></script>
+    <script src="/cleantha/bootstrap-typeahead.js"></script>
+    <script>
+      !function ($) {
+        $(function(){
+          // carousel demo
+          $('#myCarousel').carousel()
+        })
+      }(window.jQuery)
+    </script>
+    <script src="/cleantha/holder.js"></script>
+</body>
+</html>
