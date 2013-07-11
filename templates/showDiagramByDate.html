@@ -40,6 +40,15 @@
             return obj.value;      //如此简单，直接用其对象的value属性便可获取到
         }
 
+        function getNextDictionary(name){
+            var obj = document.getElementById(name);
+            for(var i=0; i<obj.length; i++){
+                if(obj[i].selected == true){
+                    return "/showdiagram?date=" + obj[i].innerText;
+                }
+            }
+        }
+
     </script>
     <div align="center">
         <ul id="nav">
@@ -49,20 +58,23 @@
             <li><a href="/diagram/" >走势拟合图表</a></li>
         </ul>
 
-        <select id="clea">
+        <h1>{{ totalnum }} dates is legal to show!!!</h1>
+
+        <form name="input" action="/showdiagram" method="get">
+            <select id="clea" name="date">
             {% for item in datelist %}
                 <option value="{{ item }}">{{ item }}</option>
             {% endfor %}
-          <!--<option value ="volvo">Volvo</option>
-          <option value ="saab">Saab</option>
-          <option value="opel">Opel</option>
-          <option value="audi">Audi</option>-->
-        </select>
+            </select>
+            <input class="btn btn-large btn-primary" type="submit" value="生成图表" onclick="alert(getNextDictionary('clea'))" />
+        </form>
 
+        {% if picname %}
+            <p><img src="/site_media/images/{{ picname }}.png"/></p>
+        {% endif %}
         <!--<input type="button" value="所选文本" onclick="alert(getSelectedText('clea'));"/>
         <input type="button" value="所选值" onclick="alert(getSelectedValue('clea'));"/>-->
-        <a class="btn btn-large btn-primary" href="/diagram" onclick="alert(getSelectedText('clea'))">显示图表</a>
-
+        <!--<a class="btn btn-large btn-primary" href="/showdiagram" onclick="alert(getNextDictionary('clea'))">显示图表</a>-->
 
     </div>
     <script src="/cleantha/jquery.js"></script>

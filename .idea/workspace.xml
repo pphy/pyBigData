@@ -4,7 +4,7 @@
     <list default="true" id="11943587-545a-424d-9df4-3b2bcf72ced9" name="Default" comment="" />
     <ignored path="filepredict.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/views.py" changelist="11943587-545a-424d-9df4-3b2bcf72ced9" time="1373535545649" ignored="false" />
+    <file path="/views.py" changelist="11943587-545a-424d-9df4-3b2bcf72ced9" time="1373550663071" ignored="false" />
     <file path="/urls.py" changelist="11943587-545a-424d-9df4-3b2bcf72ced9" time="1373521508380" ignored="false" />
     <file path="$PROJECT_DIR$/../py_excel/parse.py" changelist="11943587-545a-424d-9df4-3b2bcf72ced9" time="1372926381384" ignored="false" />
     <file path="/parse.py" changelist="11943587-545a-424d-9df4-3b2bcf72ced9" time="1372926373793" ignored="false" />
@@ -57,9 +57,9 @@
     <file path="$PROJECT_DIR$/../parsebigexcel/searchNumByDate.txt" changelist="11943587-545a-424d-9df4-3b2bcf72ced9" time="1373448742521" ignored="false" />
     <file path="$PROJECT_DIR$/../parsebigexcel/newBigExcel.py" changelist="11943587-545a-424d-9df4-3b2bcf72ced9" time="1373532921676" ignored="false" />
     <file path="/newBigExcel.py" changelist="11943587-545a-424d-9df4-3b2bcf72ced9" time="1373532333144" ignored="false" />
-    <file path="/parseBigExcel.py" changelist="11943587-545a-424d-9df4-3b2bcf72ced9" time="1373534133181" ignored="false" />
+    <file path="/parseBigExcel.py" changelist="11943587-545a-424d-9df4-3b2bcf72ced9" time="1373551839628" ignored="false" />
     <file path="/filtBoxoffice.py" changelist="11943587-545a-424d-9df4-3b2bcf72ced9" time="1373535357574" ignored="false" />
-    <file path="/showDiagramByDate.html" changelist="11943587-545a-424d-9df4-3b2bcf72ced9" time="1373518790924" ignored="false" />
+    <file path="/showDiagramByDate.html" changelist="11943587-545a-424d-9df4-3b2bcf72ced9" time="1373550620586" ignored="false" />
     <file path="$PROJECT_DIR$/../parsebigexcel/filtFile.py" changelist="11943587-545a-424d-9df4-3b2bcf72ced9" time="1373531973642" ignored="false" />
     <file path="/filtFile.py" changelist="11943587-545a-424d-9df4-3b2bcf72ced9" time="1373531965516" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -91,27 +91,16 @@
           <file leaf-file-name="navigation.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/templates/navigation.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="23" column="28" selection-start="980" selection-end="980" vertical-scroll-proportion="-5.714286">
+                <state line="23" column="28" selection-start="980" selection-end="980" vertical-scroll-proportion="-0.71428573">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="filtBoxoffice.py" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="filtBoxoffice.py" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/predictfilm/filtBoxoffice.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="49" column="0" selection-start="1639" selection-end="1639" vertical-scroll-proportion="0.8757764">
-                  <folding>
-                    <element signature="e#131#142#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="cleantha.html" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/templates/cleantha.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="329" column="21" selection-start="10326" selection-end="10326" vertical-scroll-proportion="-2.3207548">
+                <state line="35" column="30" selection-start="1219" selection-end="1219" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -120,7 +109,7 @@
           <file leaf-file-name="showDiagramByDate.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/templates/showDiagramByDate.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="58" column="45" selection-start="2584" selection-end="2584" vertical-scroll-proportion="-10.535714">
+                <state line="88" column="39" selection-start="3981" selection-end="3981" vertical-scroll-proportion="-1.9642857">
                   <folding />
                 </state>
               </provider>
@@ -130,27 +119,18 @@
             <entry file="file://$PROJECT_DIR$/filepredict/urls.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state line="55" column="46" selection-start="2279" selection-end="2279" vertical-scroll-proportion="0.0">
-                  <folding>
-                    <element signature="e#0#51#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Diagram.py" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/predictfilm/Diagram.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="95" column="15" selection-start="3750" selection-end="3750" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="weiboLogin.py" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="weiboLogin.py" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/predictfilm/weiboLogin.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="21" column="19" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0">
-                  <folding />
+                <state line="14" column="33" selection-start="214" selection-end="214" vertical-scroll-proportion="0.46901172">
+                  <folding>
+                    <element signature="e#27#37#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -158,7 +138,7 @@
           <file leaf-file-name="parseBigExcel.py" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/predictfilm/parseBigExcel.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="50" column="13" selection-start="1736" selection-end="1736" vertical-scroll-proportion="0.0">
+                <state line="162" column="10" selection-start="5418" selection-end="5418" vertical-scroll-proportion="0.0">
                   <folding>
                     <element signature="e#55#66#0" expanded="true" />
                   </folding>
@@ -169,7 +149,7 @@
           <file leaf-file-name="diagram.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/templates/diagram.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="7" column="0" selection-start="337" selection-end="337" vertical-scroll-proportion="-5.0">
+                <state line="15" column="9" selection-start="586" selection-end="586" vertical-scroll-proportion="-10.321428">
                   <folding />
                 </state>
               </provider>
@@ -179,10 +159,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/predictfilm/views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="150" column="23" selection-start="4657" selection-end="4657" vertical-scroll-proportion="1.3519669">
+                <state line="179" column="10" selection-start="5951" selection-end="5951" vertical-scroll-proportion="0.762144">
                   <folding>
                     <element signature="e#81#116#0" expanded="true" />
                   </folding>
@@ -190,38 +170,20 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="totalboxoffice.txt" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/files/totalboxoffice.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="8" column="12" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
+          <file leaf-file-name="total.png" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/media/images/total.png">
+              <provider selected="true" editor-type-id="images">
+                <state />
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="weekSearchNum.txt" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/files/weekSearchNum.txt">
+          <file leaf-file-name="Diagram.py" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/predictfilm/Diagram.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="10" column="2" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="account.txt" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/files/account.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="1" column="13" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/templates/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="22" column="14" selection-start="713" selection-end="713" vertical-scroll-proportion="0.0">
-                  <folding />
+                <state line="10" column="0" selection-start="217" selection-end="311" vertical-scroll-proportion="0.0">
+                  <folding>
+                    <element signature="e#85#97#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -285,18 +247,19 @@
         <option value="$PROJECT_DIR$/templates/cleantha.html" />
         <option value="$PROJECT_DIR$/templates/diagram.html" />
         <option value="$PROJECT_DIR$/templates/navigation.html" />
-        <option value="$PROJECT_DIR$/templates/showDiagramByDate.html" />
         <option value="$PROJECT_DIR$/filepredict/urls.py" />
-        <option value="$PROJECT_DIR$/predictfilm/parseBigExcel.py" />
         <option value="$PROJECT_DIR$/predictfilm/filtBoxoffice.py" />
         <option value="$PROJECT_DIR$/predictfilm/views.py" />
+        <option value="$PROJECT_DIR$/templates/showDiagramByDate.html" />
+        <option value="$PROJECT_DIR$/predictfilm/parseBigExcel.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-2" />
-    <option name="width" value="1444" />
-    <option name="height" value="878" />
+    <option name="x" value="64" />
+    <option name="y" value="-4" />
+    <option name="width" value="1217" />
+    <option name="height" value="805" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -343,7 +306,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="filepredict" />
+              <option name="myItemId" value="pyBigData" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -353,7 +316,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="filepredict" />
+              <option name="myItemId" value="pyBigData" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -367,7 +330,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="filepredict" />
+              <option name="myItemId" value="pyBigData" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -381,13 +344,17 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="filepredict" />
+              <option name="myItemId" value="pyBigData" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="media" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -395,25 +362,47 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="pyBigData" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="media" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
               <option name="myItemId" value="filepredict" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pyBigData" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="media" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="filepredict" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pyBigData" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="files" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="filepredict" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="filepredict" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="filepredict" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -425,12 +414,12 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Scope Based" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -486,29 +475,6 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="filepredict" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
     <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -530,6 +496,29 @@
       <option name="runNoReload" value="false" />
       <option name="useCustomRunCommand" value="false" />
       <option name="customRunCommand" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="filepredict" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -642,18 +631,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="0" width="1444" height="878" extended-state="6" />
-    <editor active="false" />
+    <frame x="64" y="-4" width="1217" height="805" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287858" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.8144611" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964131" sideWeight="0.7400821" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19799139" sideWeight="0.74079126" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19760479" sideWeight="0.66210043" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25920874" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25920874" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2587519" sideWeight="0.5004277" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33789954" sideWeight="0.49957228" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -727,51 +716,55 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/files/movieSearchByDate.txt">
+    <entry file="file://$PROJECT_DIR$/predictfilm/Diagram.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="672" column="25" selection-start="26297" selection-end="26297" vertical-scroll-proportion="0.04032258">
+        <state line="10" column="0" selection-start="217" selection-end="311" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#85#97#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/cleantha.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="329" column="21" selection-start="10326" selection-end="10326" vertical-scroll-proportion="0.037950665">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/showDiagramByDate.html">
+    <entry file="file://$PROJECT_DIR$/templates/diagram.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="45" selection-start="2584" selection-end="2584" vertical-scroll-proportion="-10.535714">
+        <state line="15" column="9" selection-start="586" selection-end="586" vertical-scroll-proportion="-10.321428">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/files/weekboxoffice.txt">
+    <entry file="file://$PROJECT_DIR$/predictfilm/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="16" selection-start="15" selection-end="16" vertical-scroll-proportion="0.0">
+        <state line="179" column="10" selection-start="5951" selection-end="5951" vertical-scroll-proportion="0.762144">
+          <folding>
+            <element signature="e#81#116#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/totalboxoffice.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="12" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/filepredict/__init__.py">
+    <entry file="file://$PROJECT_DIR$/files/weekSearchNum.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="10" column="2" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/filepredict/settings.py">
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="12" selection-start="3341" selection-end="3341" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/predictfilm/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="27" selection-start="732" selection-end="732" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/files/movieSearchNum.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="11" selection-start="138" selection-end="138" vertical-scroll-proportion="0.042105265">
+        <state line="22" column="14" selection-start="713" selection-end="713" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -783,46 +776,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/media/js/bar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="155" column="6" selection-start="4358" selection-end="4375" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/media/images/total.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/diagram.html">
+    <entry file="file://$PROJECT_DIR$/templates/showDiagramByDate.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="337" selection-end="337" vertical-scroll-proportion="-5.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/predictfilm/weiboLogin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="19" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/filepredict/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="46" selection-start="2279" selection-end="2279" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/predictfilm/Diagram.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="15" selection-start="3750" selection-end="3750" vertical-scroll-proportion="0.0">
+        <state line="88" column="39" selection-start="3981" selection-end="3981" vertical-scroll-proportion="-1.9642857">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/predictfilm/parseBigExcel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="13" selection-start="1736" selection-end="1736" vertical-scroll-proportion="0.0">
+        <state line="162" column="10" selection-start="5418" selection-end="5418" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#55#66#0" expanded="true" />
           </folding>
@@ -831,18 +799,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/predictfilm/filtBoxoffice.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="0" selection-start="1639" selection-end="1639" vertical-scroll-proportion="0.8757764">
-          <folding>
-            <element signature="e#131#142#0" expanded="true" />
-          </folding>
+        <state line="35" column="30" selection-start="1219" selection-end="1219" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/predictfilm/views.py">
+    <entry file="file://$PROJECT_DIR$/predictfilm/weiboLogin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="150" column="23" selection-start="4657" selection-end="4657" vertical-scroll-proportion="1.3519669">
+        <state line="14" column="33" selection-start="214" selection-end="214" vertical-scroll-proportion="0.46901172">
           <folding>
-            <element signature="e#81#116#0" expanded="true" />
+            <element signature="e#27#37#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -30,6 +30,7 @@ from BeautifulSoup import BeautifulSoup
 from parseBigExcel import parse
 from filtBoxoffice import filtBoxofficeByMovieSeriNum
 from parseBigExcel import filtBigExcelByDictNum
+from parseBigExcel import generateDiagramByBigExcel
 
 def hello(request):
     return HttpResponse('cleantha')
@@ -136,15 +137,10 @@ def testcookie(request):
         return response
 
 def showDiagramByDate(request):
-    try:
-        dateTime = request.GET['date']
-        print dateTime
-
-    except:
-        pass
-
-    del request.session['datedict']
-    del request.session['boxofficelist']
+    # if 'datedict' in request.session and 'boxofficelist' in request.session:
+    #     del request.session['datedict']
+    #     del request.session['boxofficelist']
+    picname = 0
 
     if not 'datedict' in request.session:
         movieSearchNumByDateDict = parse()
@@ -159,15 +155,34 @@ def showDiagramByDate(request):
         boxofficelist = request.session['boxofficelist']
         print len(datedict)
         print len(list(boxofficelist))
-        # newDateDict = filtBigExcelByDictNum(datedict, boxofficelist)
-        # request.session['newDateDict'] = newDateDict
+        newDateDict = filtBigExcelByDictNum(datedict, boxofficelist)
+        request.session['newDateDict'] = newDateDict
 
-    # newMovieDict = request.session['newDateDict']
-    # datelist = newMovieDict.keys()
-    # t = get_template('showDiagramByDate.html')
-    # html = t.render(Context({'datelist': datelist}))
-    # return HttpResponse(html)
-    return HttpResponse('cleantha')
+    try:
+        dateTime = request.GET['date']
+        # print dateTime
+
+        generateDiagramSearchList = request.session['newDateDict'][dateTime]
+        generateDiagramBoxofficeList = request.session['boxofficelist']
+        # print 'generateDiagramList--->' + str(generateDiagramList)
+
+        generateDiagramByBigExcel(generateDiagramSearchList, generateDiagramBoxofficeList, dateTime)
+
+        picname = dateTime.replace('/', '')
+    except:
+        pass
+
+    newMovieDict = request.session['newDateDict']
+    datelist = newMovieDict.keys()
+    t = get_template('showDiagramByDate.html')
+    html = t.render(Context({
+        'datelist': datelist,
+        'totalnum': len(datelist),
+        'picname': picname
+    }))
+
+    return HttpResponse(html)
+    # return HttpResponse('cleantha')
 
     # request.session['datedict'] = movieSearchNumByDateDict
 

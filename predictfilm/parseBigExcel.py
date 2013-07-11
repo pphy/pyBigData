@@ -1,6 +1,7 @@
 # This Python file uses the following encoding: utf-8
 
 import xlrd
+import pylab
 import os
 
 def parse():
@@ -67,7 +68,7 @@ def filtBigExcelByDictNum(movieSearchNumByDateDic, movieBoxofficeList):
 
     filtDateFile.close()
 
-    fileDateFile = open('./filtDate.txt', 'r')
+    fileDateFile = open(filePath, 'r')
 
     newMovieSearchNumByDateDict = {}
     for date in fileDateFile.readlines():
@@ -83,3 +84,81 @@ def filtBigExcelByDictNum(movieSearchNumByDateDic, movieBoxofficeList):
     print len(newMovieSearchNumByDateDict)
 
     return newMovieSearchNumByDateDict
+
+def generateDiagramByBigExcel(movieSearchList, movieBoxofficeList, date):
+
+    imageFilesPath = os.path.join(os.path.dirname(__file__), '..', 'media').replace('\\','/')
+
+    diagramSearchList = []
+    diagramBoxofficeList = []
+    for searchlist in movieSearchList:
+        for boxlist in movieBoxofficeList:
+            if cmp(int(searchlist[0]), int(boxlist[0])) == 0:
+                # diagramList.append([searchlist[0], searchlist[1], boxlist[1]])
+                diagramSearchList.append([searchlist[0], searchlist[1]])
+                diagramBoxofficeList.append([boxlist[0], boxlist[1]])
+
+    searchNumlist = [int(clealist[1]) for clealist in diagramSearchList]
+    boxofficelist = [int(clealist[1]) for clealist in diagramBoxofficeList]
+
+    searchMax = max(searchNumlist)
+    boxofficeMax = max(boxofficelist)
+
+    ylim = max([searchMax, boxofficeMax])
+
+    # print 'ylim--->' + str(ylim)
+
+    # print diagramSearchList
+    # print diagramBoxofficeList
+    #
+    # print len(diagramSearchList)
+    # print len(diagramBoxofficeList)
+
+    print ylim
+
+    print diagramSearchList
+    print diagramBoxofficeList
+
+    newMovieSearchList = []
+    for searchlist in diagramSearchList:
+        newMovieSearchList.append([searchlist[0], searchlist[1]*ylim/searchMax])
+
+    newMovieBoxofficeList = []
+    for boxlist in diagramBoxofficeList:
+        newMovieBoxofficeList.append([boxlist[0], boxlist[1]*ylim/boxofficeMax])
+
+    print newMovieSearchList
+    print newMovieBoxofficeList
+
+    xlim = 0
+    if cmp(len(newMovieSearchList), len(newMovieBoxofficeList)) == 0:
+        xlim = len(newMovieSearchList)
+
+    print xlim
+
+    figureNum = int(date.replace('/', ''))
+
+    print figureNum
+
+    fig = pylab.figure(figureNum)
+    x1 = [item for item in range(0, xlim)]
+    y1 = [item[1] for item in newMovieSearchList]
+    x2 = [item for item in range(0, xlim)]
+    y2 = [item[1] for item in newMovieBoxofficeList]
+
+    print x1
+    print x2
+    print y1
+    print y2
+
+    pylab.plot(x1, y1, color='r', linestyle='-', marker='o')# use pylab to plot x and y
+    pylab.plot(x2, y2, color='g', linestyle='-', marker='o')
+    pylab.title('movieSearchNum --- movieBoxoffice')# give plot a title
+    pylab.xlabel('x axis')# make axis labels
+    pylab.ylabel('y axis')
+    pylab.xlim(0.0, xlim)# set axis limits
+    pylab.ylim(0.0, ylim)
+    # pylab.show()# show the plot on the screen
+    totalImagePath = str(imageFilesPath) + '/images/' + date.replace('/', '') + '.png'
+    print totalImagePath
+    fig.savefig(totalImagePath)
