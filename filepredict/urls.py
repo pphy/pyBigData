@@ -22,6 +22,9 @@ from predictfilm.views import filterBoxOffice
 from predictfilm.views import weekBoxOffice
 from predictfilm.views import diagram
 from predictfilm.views import navi
+from predictfilm.views import readBigExcel
+from predictfilm.views import showDiagramByDate
+from predictfilm.views import testcookie
 
 # Uncomment the next two lines to enable the admin:
 # from django.contrib import admin
@@ -62,4 +65,7 @@ urlpatterns = patterns('',
     url(r'^weekboxoffice/$', weekBoxOffice),
     url(r'^diagram/$', diagram),
     url(r'^navi/$', navi),
+    url(r'^readbigexcel/$', readBigExcel),
+    url(r'^showdiagram/$', showDiagramByDate),
+    url(r'^testcookie/$', testcookie),
 )

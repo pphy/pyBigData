@@ -27,6 +27,9 @@ from django.shortcuts import render_to_response
 # import BeautifulSoup
 import re
 from BeautifulSoup import BeautifulSoup
+from parseBigExcel import parse
+from filtBoxoffice import filtBoxofficeByMovieSeriNum
+from parseBigExcel import filtBigExcelByDictNum
 
 def hello(request):
     return HttpResponse('cleantha')
@@ -118,6 +121,55 @@ def d3Show(request):
     html = t.render(Context({''}))
 
     return HttpResponse(html)
+
+def readBigExcel(request):
+    # parse()
+    filtBoxofficeByMovieSeriNum()
+    return HttpResponse('successful!!!')
+
+def testcookie(request):
+    if 'clea' in request.COOKIES:
+        return HttpResponse("you have clea is %s" % request.COOKIES['clea'])
+    else:
+        response = HttpResponse("you dont have clea")
+        response.set_cookie('clea', 'cleantha')
+        return response
+
+def showDiagramByDate(request):
+    try:
+        dateTime = request.GET['date']
+        print dateTime
+
+    except:
+        pass
+
+    del request.session['datedict']
+    del request.session['boxofficelist']
+
+    if not 'datedict' in request.session:
+        movieSearchNumByDateDict = parse()
+        request.session['datedict'] = movieSearchNumByDateDict
+    if not 'boxofficelist' in request.session:
+        boxofficelist = filtBoxofficeByMovieSeriNum()
+        print boxofficelist
+        request.session['boxofficelist'] = boxofficelist
+
+    if not 'newDateDict' in request.session:
+        datedict = request.session['datedict']
+        boxofficelist = request.session['boxofficelist']
+        print len(datedict)
+        print len(list(boxofficelist))
+        # newDateDict = filtBigExcelByDictNum(datedict, boxofficelist)
+        # request.session['newDateDict'] = newDateDict
+
+    # newMovieDict = request.session['newDateDict']
+    # datelist = newMovieDict.keys()
+    # t = get_template('showDiagramByDate.html')
+    # html = t.render(Context({'datelist': datelist}))
+    # return HttpResponse(html)
+    return HttpResponse('cleantha')
+
+    # request.session['datedict'] = movieSearchNumByDateDict
 
 def readExcelFunc():
     filesPath = os.path.join(os.path.dirname(__file__), '..', 'files').replace('\\','/')
